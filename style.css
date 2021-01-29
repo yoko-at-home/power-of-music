@@ -21,12 +21,6 @@ body {
   transition: 0.4s;
 }
 
-@media (max-width: 767px) {
-  body{
-  margin: 0;
-  }
-}
-
 body::before {
   content: '';
   position: absolute;
@@ -91,4 +85,19 @@ h1 {
 
 .right-arrow {
   right: calc(15vw - 65px);
+}
+
+@media (max-width: 767px) {
+  body{
+  margin: 0;
+  }
+  .slider-container {
+  width: 85vw;
+}
+  .arrow {
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid wheat;
+  transform: translateY(-60%);
+}
 }
