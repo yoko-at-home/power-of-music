@@ -17,12 +17,25 @@ body {
   text-align: center;
   align-items: center;
 }
+
+.wrapper {
+  margin: 3rem 5rem;
+}
+@media (max-width: 767px) { #css{width:auto;} ;
+body {
+  margin: 3rem 0;
+}
+.wrapper {
+  margin: 2rem 0;
+}}
 .container {
 display: grid;
   grid-template-columns: repeat(auto-fill, minmax(359px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(500px, 1fr));
   gap: 20px;
   padding: 0;
+  justify-self: end;
+
 }
 
 button {
