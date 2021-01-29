@@ -39,7 +39,7 @@ body::before {
 }
 
 h1 {
-  color: #fff;
+  color: rgb(97, 95, 95);
   font-size: 40px;
   text-shadow: 0 0 15px #FFF, 0 0 15px #FFF, 0 0 15px #FFF, 0 0 15px #49ff18, 0 0 30px #49FF18, 0 0 40px orange, 0 0 55px #49FF18, 0 0 75px orange;
 }
