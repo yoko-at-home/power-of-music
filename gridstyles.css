@@ -22,7 +22,7 @@ display: grid;
   grid-template-columns: repeat(auto-fill, minmax(359px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(500px, 1fr));
   gap: 20px;
-  padding: 20px;
+  padding: 0;
 }
 
 button {
@@ -41,8 +41,6 @@ button {
 box-shadow: 5px 5px 15px 5px #525050;
 }
 
-
-
 button:focus {
   outline: none;
   cursor: pointer;
@@ -60,7 +58,7 @@ button .circle {
 
 h1 {
   color: #fff;
-  font-size: 36px;
+  font-size: 40px;
   text-shadow: 0 0 15px #FFF, 0 0 15px #FFF, 0 0 15px #FFF, 0 0 15px #49ff18, 0 0 30px #49FF18, 0 0 40px orange, 0 0 55px #49FF18, 0 0 75px orange;
 }
 @keyframes scale {
